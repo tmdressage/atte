@@ -7,7 +7,7 @@
 ## アプリケーションURL
 　http://localhost/login
   
-  ※本人確認メールは以下URLのmailhogに送信されます
+  ※本人確認メールはmailhogに送信されます。
   http://localhost:8025/
 
 ## 他のリポジトリ  
@@ -23,17 +23,25 @@
   
 ## 使用技術（実行環境）
 　OS：Linux（Ubuntu）
+  環境：Docker Desktop v4.23.0
 　言語：PHP 7.4.9
 　フレームワーク：Laravel 8
   DB：mysql 8.0.26
   WEBサーバソフトウェア：nginx 1.21.1
-  エディタ：VSCode 1.84.0 
+  エディタ：VSCode 1.84.0
+
 
 ## テーブル設計
 ![スクリーンショット 2023-12-21 162115](https://github.com/tmdressage/atte/assets/144135026/3a076f6f-5ab9-4acf-8078-314ae0b2c0ed)
 
 ## ER図
 ![スクリーンショット 2023-12-21 163431](https://github.com/tmdressage/atte/assets/144135026/710bd184-1bc1-4af7-89ba-9d8980b8139a)
+
+## 環境構築
+　運営側でご用意いただいた環境（coachtech-material/laravel-docker-template.git）をベースにして、
+  docker-compose.ymlと.envにmailhog用の設定を追加いたしました。
+  ![スクリーンショット 2023-12-21 170105](https://github.com/tmdressage/atte/assets/144135026/30311bc8-4876-4942-bcc3-41c21613db47)
+  ![スクリーンショット 2023-12-21 170407](https://github.com/tmdressage/atte/assets/144135026/fc998dab-4463-42de-8e51-0f828aa8d815)
 
 ## その他
 お手数ですがご採点の程よろしくお願い申し上げます。以下補足事項です。
