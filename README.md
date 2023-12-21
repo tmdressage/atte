@@ -37,9 +37,7 @@
 ![スクリーンショット 2023-12-21 163431](https://github.com/tmdressage/atte/assets/144135026/710bd184-1bc1-4af7-89ba-9d8980b8139a)
 
 ## 環境構築
-　運営側でご用意いただいた環境（coachtech-material/laravel-docker-template.git）をベースにして、
-  docker-compose.ymlと.envにmailhog用の設定を追加いたしました。
-  
+運営側でご用意いただいた環境（coachtech-material/laravel-docker-template.git）をベースにして、docker-compose.ymlと.envにmailhog用の設定を追加いたしました。  
 ![スクリーンショット 2023-12-21 170105](https://github.com/tmdressage/atte/assets/144135026/30311bc8-4876-4942-bcc3-41c21613db47)
 ![スクリーンショット 2023-12-21 170407](https://github.com/tmdressage/atte/assets/144135026/fc998dab-4463-42de-8e51-0f828aa8d815)
 
