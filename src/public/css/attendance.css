@@ -1,0 +1,140 @@
+.attendance__content {
+    margin: 0 auto;
+    padding: 30px 15px 52px 15px;
+    background-color: #f1f1f1;
+}
+
+.date {
+    height: 50px;
+}
+
+.date-body {
+    display: flex;
+    justify-content: center;
+}
+
+.date-text {
+    margin: 15px 25px 0px 25px;
+}
+
+.date-item {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 27px;
+    background: #fff;
+    font-size: 25px;
+    color: blue;
+    transition: all 0.15s linear;
+    border: solid 0.5px blue;
+}
+
+.date-item.isActive {
+    background: blue;
+    color: #fff;
+    pointer-events: none;
+}
+
+.date-item:not(.isActive):hover {
+    background: blue;
+    color: #fff;
+}
+
+.disabled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 27px;
+    background: #fff;
+    font-size: 25px;
+    color: blue;
+    transition: all 0.15s linear;
+    border: solid 0.5px blue;
+
+}
+
+
+
+.attendance-table {
+    margin: 30px auto;
+    width: 1100px;
+    text-align: center;
+}
+
+.attendance-table__inner {
+    width: 100%;
+}
+
+.attendance-table__row {
+    border-top: 1px solid #ddd;
+}
+
+.attendance-table__header-name {
+    padding: 15px 30px;
+    width: 20%;
+    font-weight: bold;
+    text-align: left;
+}
+
+.attendance-table__header {
+    padding: 15px 30px;
+    width: 20%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.attendance-table__item-name {
+    padding: 15px 30px;
+    width: 20%;
+    text-align: left;
+}
+
+.attendance-table__item {
+    padding: 15px 30px;
+    width: 20%;
+    text-align: center;
+}
+
+.page {
+    margin-top: 30px;
+
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.page-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 35px;
+    height: 30px;
+    background: #fff;
+    font-size: 18px;
+    color: blue;
+    transition: all 0.15s linear;
+    border: solid 0.5px #f1f1f1;
+}
+
+.page-item.isActive {
+    background: blue;
+    color: #fff;
+    pointer-events: none;
+}
+
+.page-item:not(.isActive):hover {
+    background: blue;
+    color: #fff;
+}
+
+
+.page-link {
+    text-decoration: none;
+    font-size: 18px;
+}

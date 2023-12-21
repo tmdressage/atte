@@ -1,0 +1,129 @@
+.container{
+    height: 40px;
+}
+
+.attendance__alert--success {
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-color: #badbcc;
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+.attendance__alert--danger {
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-color: #f5c2c7;
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.attendance__content {
+    margin: 0 auto;  
+    padding: 20px 15px 50px 15px;
+    background-color: #f1f1f1;
+}
+
+.attendance__alert {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.attendance__work-panel {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.attendance__work-start-button {
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.attendance__work-start-button-submit {
+    padding: 5px;
+    width: 400px;
+    height: 180px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.attendance__work-end-button {
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.attendance__work-end-button-submit {
+    padding: 5px;
+    width: 400px;
+    height: 180px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.attendance__rest-panel {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.attendance__rest-start-button {
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.attendance__rest-start-button-submit {
+    padding: 5px;
+    width: 400px;
+    height: 180px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.attendance__rest-end-button {
+    margin-right: 15px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.attendance__rest-end-button-submit {
+    padding: 5px;
+    width: 400px;
+    height: 180px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
