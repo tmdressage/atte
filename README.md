@@ -30,7 +30,6 @@
   WEBサーバソフトウェア：nginx 1.21.1
   エディタ：VSCode 1.84.0
 
-
 ## テーブル設計
 ![スクリーンショット 2023-12-21 162115](https://github.com/tmdressage/atte/assets/144135026/3a076f6f-5ab9-4acf-8078-314ae0b2c0ed)
 
@@ -40,8 +39,9 @@
 ## 環境構築
 　運営側でご用意いただいた環境（coachtech-material/laravel-docker-template.git）をベースにして、
   docker-compose.ymlと.envにmailhog用の設定を追加いたしました。
-  ![スクリーンショット 2023-12-21 170105](https://github.com/tmdressage/atte/assets/144135026/30311bc8-4876-4942-bcc3-41c21613db47)
-  ![スクリーンショット 2023-12-21 170407](https://github.com/tmdressage/atte/assets/144135026/fc998dab-4463-42de-8e51-0f828aa8d815)
+  
+![スクリーンショット 2023-12-21 170105](https://github.com/tmdressage/atte/assets/144135026/30311bc8-4876-4942-bcc3-41c21613db47)
+![スクリーンショット 2023-12-21 170407](https://github.com/tmdressage/atte/assets/144135026/fc998dab-4463-42de-8e51-0f828aa8d815)
 
 ## その他
 お手数ですがご採点の程よろしくお願い申し上げます。以下補足事項です。
